@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    width: 100vw;
+    height: auto;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.div-navegacao {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px 10px 300px;
+    border-top: solid(93, 111, 157);
+    border-right: solid(93, 111, 157);
+    border-left: solid rgb(93, 111, 157);
+    border-bottom: solid 2px black;
+    background-color: rgb(93, 111, 157)
+}
+
+.navegacao {
+    font-size: 29px;
+    height: 40px;
+    margin: auto;
+    padding: auto;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.navegacao ul>li {
+    margin-right: 7.5%;
+}
+
+.navegacao ul>li>a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.navegacao ul>li>a:hover {
+    background-color: #454ea0;
+
+}
+
+.logo-nome {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    border: 3px solid black;
+    color: rgb(93, 111, 157);
+    font-weight: 100px;
+}
+
+
+.logo-nome img {
+    max-width: 250px;
+    height: auto;
+
+}
+
+.logo-nome>p {
+    margin-top: 65px;
+    font-weight: 25px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+#espaco-titulo {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.card {
+    margin-left: 50px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.div-card {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.card {
+    width: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+.card p {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+strong {
+    color: rgb(93, 111, 157)
+}
+
+p {
+    text-transform: capitalize;
+
+}
+
+pre {
+    text-align: center;
+    text-transform: capitalize, uppercase;
+    text-decoration: none;
+}
+
+footer {
+    height: auto;
+    background-color: rgb(93, 111, 157);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+footer a {    
+    color: white;
+    text-decoration: none;
+}
